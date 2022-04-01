@@ -5,6 +5,7 @@
 * grafana ([grafana/grafana:6.4.3](https://grafana.com/grafana/download))
 
 ## Step 0. Keycloak 연동
+- `추측` : DOMAIN = API GATEWAY 주소로 추측하고 적용중임
 * 목적 : 'Keycloak 연동'
 * 순서: 
 	* keycloak에서 client 생성 후
