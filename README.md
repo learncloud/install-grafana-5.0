@@ -25,11 +25,10 @@
 		* GRAFANA_HOME=~/install-grafana-5.0
 		* GRAFANA_VERSION=6.4.3
 		* REGISTRY = private registry가 존재하지 않는다면 그대로 둔다. `ex. 192.168.178.17:5000`
-		* DOMAIN_NAME = apigateway dns address
-		* DOMAIN = grafana dns 주소(ex grafana.tmaxcloud.org)
-		* KEYCLOAK_ADDR = hyperauth 주소
-		* CLIENT_ID = hyperauth에 등록한 grafana client id( grafana로 설정해주세요)
-		* CLIENT_SECRET = hyperauth에서 Client > grafana > Credentials > Secret의 문자열
+		* DOMAIN = grafana dns 주소 `ex. grafana.tmaxcloud.org`
+		* KEYCLOAK_ADDR = 192.168.178.81
+		* CLIENT_ID = hyperauth에 등록한 grafana client id( `grafana2`로 설정해주세요)
+		* CLIENT_SECRET = hyperauth에서 생성한 `Client > grafana > Credentials > Secret의 문자열`
 		* GRAFANA_PVC = grafana pvc 용량 `ex. 10Gi`
 		* DOMAIN_NAME = apigateway dns address `ex. 192.168.178.82`
 	
