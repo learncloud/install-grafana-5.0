@@ -5,7 +5,10 @@
 * grafana ([grafana/grafana:6.4.3](https://grafana.com/grafana/download))
 
 ## Step 0. Keycloak 연동
-- `추측` : DOMAIN = console.192.168.178.82.nip.io로 추측하고 진행해볼거
+- `참고` : DOMAIN = grafana.192.168.178.82.nip.io (192~.nip.io는 api-gateway주소임)
+- `참고` : DOMAIN_NAME = 192.168.178.82.nip.io (192~.nip.io는 api-gateway주소임)
+
+
 * 목적 : 'Keycloak 연동'
 * 순서: 
 	* keycloak에서 client 생성 후
